@@ -34,7 +34,7 @@ sudo ./sys2lcd
 if you see the LCD has system information then it is OK
 
 4. Set up the LCD2USB to run without sudo
-Your device should be this
+When run `lsusb` you should have this line
 ```
 Bus 003 Device 002: ID 0403:c630 Future Technology Devices International, Ltd lcd2usb interface
 ```
@@ -82,3 +82,4 @@ sudo systemctl start sys2lcd.service
 ```
 # Demo with Orange PI CM5 on Orange PI CM5 Tablet Baseboard
 
+![sys2lcd](https://github.com/user-attachments/assets/51680674-bdca-4533-be21-97c2d9e7726d)
